@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="ALVAH Portfolio Atlas. Projekty, funkce, technická náročnost a doložený výkon v jednom přehledu.">
+  <title>ALVAH — Portfolio Atlas</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Přejít na obsah</a>
+  <header class="site-header">
+    <a class="brand" href="#portfolio" aria-label="ALVAH Portfolio Atlas, úvod"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M7 32 20 7l13 25H7Zm7-7h12M20 7v25" fill="none" stroke="currentColor" stroke-width="2.5"/></svg><span>ALVAH<span class="brand-sub">PORTFOLIO ATLAS</span></span></a>
+    <nav aria-label="Hlavní navigace"><a href="#portfolio" data-page="portfolio" class="active">Portfolio</a><a href="#performance" data-page="performance">Výkon</a><a href="#capabilities" data-page="capabilities">Funkce</a><a href="#sources" data-page="sources">Zdroje dat</a></nav>
+    <span class="header-stamp"><i></i> INTERNÍ PŘEHLED <span id="header-date">29.10.2026</span></span>
+    <button class="icon-button mobile-nav-toggle" id="mobile-menu" aria-label="Otevřít navigaci" aria-expanded="false">☰</button>
+  </header>
+  <main id="main" tabindex="-1"><div class="initial-loading"><span class="loading-orbit"></span>Načítám portfolio…</div></main>
+  <footer class="site-footer"><a class="footer-brand" href="#portfolio">ALVAH<span>TECHNOLOGIES</span></a><p>Každý projekt má svůj příběh.<br>Každé číslo má svůj zdroj.</p><a href="#sources">Jak číst tento přehled <span>↗</span></a><span class="footer-index">PORTFOLIO ATLAS / 2026</span></footer>
+  <dialog id="project-dialog" class="project-dialog" aria-label="Detail projektu"><div id="project-detail"></div></dialog>
+  <dialog id="compare-dialog" class="compare-dialog" aria-label="Porovnání projektů"><div id="compare-detail"></div></dialog>
+  <div id="compare-tray" class="compare-tray" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

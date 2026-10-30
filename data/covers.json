@@ -1,0 +1,44 @@
+{
+  "JAKOS": {
+    "src": "assets/covers/jakos.webp",
+    "source": "JAKOS/public/home_hero_final.webp",
+    "alt": "Projektový hero materiál JAKOS: bytový dům během prací na fasádě.",
+    "kind": "project-material"
+  },
+  "NeedForKola": {
+    "src": "assets/covers/needforkola.webp",
+    "source": "NeedForKola/assets/images/wheel-hero-oarts-silver-hq-v2-1280.webp",
+    "alt": "Produktový materiál NeedForKola se stříbrným diskem O’arts na tmavém pozadí.",
+    "kind": "project-material"
+  },
+  "Pizza": {
+    "src": "assets/covers/pizza.webp",
+    "source": "Pizza/public/hero-poster.webp",
+    "alt": "Světelný nápis Pizza Club Neapol z hero materiálu projektu.",
+    "kind": "project-material"
+  },
+  "KrokyZivota": {
+    "src": "assets/covers/krokyzivota.webp",
+    "source": "KrokyZivota/public/design/hero-original.jpg",
+    "alt": "Obrazový motiv leknínů pod hladinou z projektu KrokyŽivota.",
+    "kind": "project-material"
+  },
+  "WorkForce": {
+    "src": "assets/covers/workforce.webp",
+    "source": "WorkForce/public/images/b2b/hero-workers.png",
+    "alt": "Marketingový obraz týmu v pracovních helmách a reflexních vestách v průmyslovém prostředí.",
+    "kind": "project-material"
+  },
+  "EroFest2027": {
+    "src": "assets/covers/erofest2027.webp",
+    "source": "EroFest2027/web/public/hero/hero-poster.jpg",
+    "alt": "Projektový materiál veletržního prostoru s rozostřeným davem návštěvníků.",
+    "kind": "project-material"
+  },
+  "ZooSedlec_Mik": {
+    "src": "assets/covers/zoosedlec.webp",
+    "source": "ZooSedlec_Mik/web/public/videos/hero.webp",
+    "alt": "Obrazový materiál Zoo Sedlec s lemury na větvích.",
+    "kind": "project-material"
+  }
+}
